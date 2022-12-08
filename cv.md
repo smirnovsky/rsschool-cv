@@ -1,4 +1,5 @@
 # Aleksei Smirnov 
+![AlekseiPhoto](./img/AlekseiPhoto.jpg)
     
 # My contacts:
 * Adress: Universite cad., Yenishehir, Mersin, Turkey.
@@ -9,6 +10,7 @@
     + smirnovsk28@gmail.com
     + happy280190@gmail.com
 * GitHub: [https://github.com/smirnovsky](smirnovsky)
+* Discord: Smirnovsk#0532
 
 
 # About myself:

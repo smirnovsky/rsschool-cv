@@ -1,15 +1,15 @@
 # Aleksei Smirnov 
-----
+    
 # My contacts:
 * Adress: Universite cad., Yenishehir, Mersin, Turkey.
 * Phone: 
-+ +90(534)782-51-75
-+ +7(911)418-73-13
+    + +90(534)782-51-75
+    + +7(911)418-73-13
 * Email:
-+ smirnovsk28@gmail.com
-+ happy280190@gmail.com
+    + smirnovsk28@gmail.com
+    + happy280190@gmail.com
 * GitHub: [https://github.com/smirnovsky](smirnovsky)
-----
+
 
 # About myself:
 I started my career as a dentist.
@@ -19,25 +19,23 @@ Layout was my main task. But this was not enough for me, and then I completely i
 
 My goal is not just to become a front-end developer. I want to become a highly qualified and sought-after specialist in the market.
 
-### My strengths:
+My strengths:
 The desire to learn something new.
 Craving for learning.
 Self-discipline.
 Striving to achieve your goals.
-----
+
 
 # Skills: 
 * HTML
-* CSS 
-+ BEM
-+ SCSS
+* CSS (BEM, SCSS)
 * JavaScript (Fundamentals, Functional Programming, OOP, ES6+)
 * React JS, Redux (intermediate level knowledge)
 * Webpack, GULP
 * VSCode, Xcode
 * Figma
 * Windows, MacOs
-----
+
 
 # Code Examples:
 
@@ -69,7 +67,7 @@ const ExpensesFilter = (props) => {
 
 export default ExpensesFilter;
 ```
-----
+
 
 # Work Experience: 
 
@@ -77,10 +75,11 @@ Web studio "Stratosphere". September 2021 - March 2022.
 
 # Education:
 
-Crimean State Medical University: 2007-2015.
+* Crimean State Medical University: 2007-2015.
 
-Layout courses "HTML-Academy" (completed)
-React - The Complete Guide by Maximilian Schwarzmüller (in progress)
+* Layout courses "HTML-Academy" (completed)
+
+* React - The Complete Guide by Maximilian Schwarzmüller (in progress)
 JS/FE Pre-School 2022Q4 (in progress)
 
 # Languages: 

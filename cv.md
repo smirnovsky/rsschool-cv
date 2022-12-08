@@ -81,6 +81,7 @@ Web studio "Stratosphere". September 2021 - March 2022.
 * Crimean State Medical University: 2007-2015.
 
 * Layout courses "HTML-Academy" (completed)
+  + [https://smirnovsky.github.io/DeviceWebLayout/](Layout. Online shop For Photographers)
 
 * React - The Complete Guide by Maximilian Schwarzmüller (in progress)
 JS/FE Pre-School 2022Q4 (in progress)

@@ -1,0 +1,195 @@
+/* ---------------------Fonts--------------------- */
+
+@font-face {
+    font-family: "Ausion";
+    font-style: normal;
+    font-weight: 300;
+    src: url("fonts/Ausion-LightCAPS.woff2") format("woff2"), url("fonts/Ausion-LightCAPS.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Ausion";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/Ausion-RegularCAPS.woff2") format("woff2"), url("fonts/Ausion-RegularCAPS.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Mona-Sans";
+    font-style: normal;
+    font-weight: 200;
+    src: url("fonts/Mona-Sans-UltraLightWide.woff2") format("woff2"), url("fonts/Mona-Sans-UltraLightWide.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Mona-Sans";
+    font-style: normal;
+    font-weight: 300;
+    src: url("fonts/Mona-Sans-LightWide.woff2") format("woff2"), url("fonts/Mona-Sans-LightWide.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Mona-Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/Mona-Sans-RegularWide.woff2") format("woff2"), url("fonts/Mona-Sans-RegularWide.woff") format("woff");
+}
+
+/* ---------------------Globals--------------------- */
+
+* {
+    box-sizing: border-box;
+  }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+/* ---------------------Header--------------------- */
+
+
+.body {
+    background: linear-gradient(45deg, #39426d, #d3ddfffe);
+    background-size: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    min-width: 500px;
+}
+
+
+.header {
+    background: linear-gradient(45deg, #22162e, #87bded);
+    background-size: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+
+}
+
+.header-name {
+    font-family: "Mona-Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 44px;
+    color: white;
+
+    width: 70%;
+    min-width: 50%;
+    margin-left: 25%;
+    margin-top: 40px;
+    height: 10vh;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 30%;
+    align-items: flex-end;
+    justify-content: center;
+
+    text-shadow: 2px 2px 10px black;
+}
+
+.content-wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.profile-photo {
+    position: absolute;
+    width: 18%;
+    min-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid rgb(255, 248, 238);
+    box-shadow: 0px 0px 10px black;
+
+    margin-top: 30px;
+}
+
+.navigation-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    padding: 5px;
+    background-color: rgb(193, 193, 193);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.286);
+}
+
+.navigation {
+    width: 70%;
+    min-width: 50%;
+
+    font-family: "Mona-Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 30%;
+
+    text-shadow: 2px 2px 10px black;
+}
+
+/* ---------------------Main--------------------- */
+
+.main {
+    width: 70%;
+    margin: 10vh auto;
+}
+
+section {
+    background: linear-gradient(45deg, #1f2141ca, #5569ab);
+    background-size: 100%;
+    padding: 40px;
+
+    color: rgb(249, 248, 255);
+    font-family: "Mona-Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 10px black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.243);
+}
+
+/* ---------------------Footer--------------------- */
+
+.footer {
+    background: linear-gradient(45deg, #22162e, #87bded);
+    background-size: 100%;
+
+    font-family: "Mona-Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 40px 10%;
+}
+
+.rs-school-logo {
+    width: 80px;
+    height: 100%;
+    fill: white;
+    stroke: red;
+}

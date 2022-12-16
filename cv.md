@@ -14,7 +14,7 @@
 * Discord: Smirnovsk#0532
 
 
-# About myself:
+# About me:
 I started my career as a dentist.
 Two years ago I decided to switch to work in IT. Started with online courses, continued learning on my own. My first job was as a coder in a small WEB-studio dealing with advertising.
 

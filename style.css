@@ -155,6 +155,10 @@ nav {
     margin: 10vh auto;
 }
 
+.code {
+    width: fit-content;
+}
+
 section {
     background: linear-gradient(45deg, #1f2141ca, #5569ab);
     background-size: 100%;

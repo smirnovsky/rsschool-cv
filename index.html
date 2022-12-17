@@ -79,34 +79,31 @@
 
             <section id="code">
                 <h2>Code:</h2>
-                <pre>
-                    <code>
-                        import React from 'react';
-
-                        import './ExpensesFilter.css';
-
-                        const ExpensesFilter = (props) =&gt; {
-                            const dropdownChangeHandler = (event) =&gt; {
-                                props.oncChangeFilter(event.target.value);
-                            };
-                        return (
-                            &lt;div className='expenses-filter'&gt;
-                            &lt;div className='expenses-filter__control'&gt;
-                                &lt;label&gt;Filter by year&lt;/label&gt;
-                                &lt;select value={props.selected} onChange={dropdownChangeHandler}&gt;
-                                &lt;option value='2022'&gt;2022&lt;/option&gt;
-                                &lt;option value='2021'&gt;2021&lt;/option&gt;
-                                &lt;option value='2020'&gt;2020&lt;/option&gt;
-                                &lt;option value='2019'&gt;2019&lt;/option&gt;
-                                &lt;/select&gt;
-                            &lt;/div&gt;
-                            &lt;/div&gt;
-                        );
-                        };
+                    <code class="code">
+                        import React from 'react';<br>
+                        import './ExpensesFilter.css';<br>
+                        <br>
+                        const ExpensesFilter = (props) =&gt; {<br>
+                            const dropdownChangeHandler = (event) =&gt; {<br>
+                                props.oncChangeFilter(event.target.value);<br>
+                            };<br>
+                        return (<br>
+                            &lt;div className='expenses-filter'&gt;<br>
+                            &lt;div className='expenses-filter__control'&gt;<br>
+                                &lt;label&gt;Filter by year&lt;/label&gt;<br>
+                                &lt;select value={props.selected} onChange={dropdownChangeHandler}&gt;<br>
+                                &lt;option value='2022'&gt;2022&lt;/option&gt;<br>
+                                &lt;option value='2021'&gt;2021&lt;/option&gt;<br>
+                                &lt;option value='2020'&gt;2020&lt;/option&gt;<br>
+                                &lt;option value='2019'&gt;2019&lt;/option&gt;<br>
+                                &lt;/select&gt;<br>
+                            &lt;/div&gt;<br>
+                            &lt;/div&gt;<br>
+                        );<br>
+                        };<br>
 
                         export default ExpensesFilter;
                     </code>
-                </pre>
             </section>
 
             <section id="experience">

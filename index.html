@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <div class="wrapper">
+        <header class="header">  
+            <div class="content-wrapper">
+                <img class="profile-photo" src="img/profilePhotoNew.jpeg" alt="CV Photo">
+                <div class="navigation-wrapper">        
+                    <h1 class="header-name">ALEKSEI SMIRNOV</h1>
+
+                </div>
+            </div>
+        </header>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#languages">Languages</a></li>
+            </ul>
+        </nav>
+        <main class="main" id="contacts">
+            <section>
+                <h2>Contacts:</h2>
+                <p>Adress: Universite cad., Yenishehir, Mersin, Turkey.</p>
+                <p>Phone:</p>
+                <ul> 
+                    <li><a  href="tel:+90(534)782-51-75">+90(534)782-51-75</a></li>
+                    <li><a href="tel:+7(911)418-73-13">+7(911)418-73-13</a></li>
+                </ul>
+                <p>Email:</p>
+                <ul>
+                    <li><a href="mailto:smirnovsk28@gmail.com">smirnovsk28@gmail.com</a></li>
+                    <li><a href="mailto:happy280190@gmail.com">happy280190@gmail.com</a></li>
+                </ul>
+                <p>Github: <a href="https://github.com/smirnovsky">smirnovsky</a></p>
+                <p>Discord: Smirnovsk#0532</p>
+            </section>
+
+            <section id="about">
+                <h2>About me:</h2>
+                <p>I started my career as a dentist.
+                    Two years ago I decided to switch to work in IT. Started with online courses, continued learning on my own. My first job was as a coder in a small WEB-studio dealing with advertising.
+                    
+                    Layout was my main task. But this was not enough for me, and then I completely immersed myself in Front-end development.
+                    
+                    My goal is not just to become a front-end developer. I want to become a highly qualified and sought-after specialist in the market.
+                    
+                    My strengths:
+                    The desire to learn something new.
+                    Craving for learning.
+                    Self-discipline.
+                    Striving to achieve your goals.</p>
+            </section>
+
+            <section id="skills">
+                <h2>Skills:</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS (BEM, SCSS)</li>
+                    <li>JavaScript (Fundamentals, Functional Programming, OOP, ES6+)</li>
+                    <li>React JS, Redux (intermediate level knowledge)</li>
+                    <li>Webpack, GULP</li>
+                    <li>VSCode, Xcode</li>
+                    <li>Figma</li>
+                    <li>Windows, MacOs</li>
+                </ul>
+            </section>
+
+            <section id="code">
+                <h2>Code:</h2>
+                    <code class="code">
+                        import React from 'react';<br>
+                        import './ExpensesFilter.css';<br>
+                        <br>
+                        const ExpensesFilter = (props) =&gt; {<br>
+                            const dropdownChangeHandler = (event) =&gt; {<br>
+                                props.oncChangeFilter(event.target.value);<br>
+                            };<br>
+                        return (<br>
+                            &lt;div className='expenses-filter'&gt;<br>
+                            &lt;div className='expenses-filter__control'&gt;<br>
+                                &lt;label&gt;Filter by year&lt;/label&gt;<br>
+                                &lt;select value={props.selected} onChange={dropdownChangeHandler}&gt;<br>
+                                &lt;option value='2022'&gt;2022&lt;/option&gt;<br>
+                                &lt;option value='2021'&gt;2021&lt;/option&gt;<br>
+                                &lt;option value='2020'&gt;2020&lt;/option&gt;<br>
+                                &lt;option value='2019'&gt;2019&lt;/option&gt;<br>
+                                &lt;/select&gt;<br>
+                            &lt;/div&gt;<br>
+                            &lt;/div&gt;<br>
+                        );<br>
+                        };<br>
+
+                        export default ExpensesFilter;
+                    </code>
+            </section>
+
+            <section id="experience">
+                <h2>Work Experience:</h2>
+                <p>Web studio "Stratosphere". September 2021 - March 2022.</p>
+            </section>
+
+            <section id="education">
+                <h2>Education:</h2>
+                <ul>
+                    <li>Crimean State Medical University: 2007-2015.</li>
+                    <li>Layout courses "HTML-Academy" (completed)</li>
+                    <li><a href="https://smirnovsky.github.io/DeviceWebLayout/">Layout. Online shop For Photographers,</a></li>
+                    <li><a href="https://smirnovsky.github.io/testForModesto/">Layout. Online flower store</a></li>
+                    <li>React - The Complete Guide by Maximilian Schwarzmüller (in progress)</li>
+                    <li>JS/FE Pre-School 2022Q4 (in progress)</li>
+                </ul>
+            </section>
+
+            <section id="languages">
+                <h2>Languages:</h2>
+                <ul>
+                    <li>Russian: Native,</li>
+                    <li>Ukrainian: C2,</li>
+                    <li>English: B1,</li>
+                </ul>
+            </section>
+        </main>
+        <footer class="footer">
+            <p>Made by <a href="https://github.com/smirnovsky">@smirnovsky</a> 2022</p>
+            <a href="https://rs.school/js/"><img class="rs-school-logo" src="./img/rs_school_js.svg" alt="RsSchool Logo"></a>
+        </footer>
+    </div>
+</body>
+</html>

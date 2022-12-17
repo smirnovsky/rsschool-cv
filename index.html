@@ -20,33 +20,35 @@
         </header>
         <nav>
             <ul class="navigation">
-                <li><a href="">Contacts</a></li>
-                <li><a href="">Summary</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">Code</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">Education</a></li>
-                <li><a href="">Languages</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#languages">Languages</a></li>
             </ul>
         </nav>
-        <main class="main">
+        <main class="main" id="contacts">
             <section>
-                <h2>Contacts</h2>
+                <h2>Contacts:</h2>
                 <p>Adress: Universite cad., Yenishehir, Mersin, Turkey.</p>
-                <ul>Phone: 
-                    <li>+90(534)782-51-75</li>
-                    <li>+7(911)418-73-13</li>
+                <p>Phone:</p>
+                <ul> 
+                    <li><a  href="tel:+90(534)782-51-75">+90(534)782-51-75</a></li>
+                    <li><a href="tel:+7(911)418-73-13">+7(911)418-73-13</a></li>
                 </ul>
-                <ul>Email:
-                    <li>smirnovsk28@gmail.com</li>
-                    <li>happy280190@gmail.com</li>
+                <p>Email:</p>
+                <ul>
+                    <li><a href="mailto:smirnovsk28@gmail.com">smirnovsk28@gmail.com</a></li>
+                    <li><a href="mailto:happy280190@gmail.com">happy280190@gmail.com</a></li>
                 </ul>
-                <a href="https://github.com/smirnovsky">smirnovsky</a>
+                <p>Github: <a href="https://github.com/smirnovsky">smirnovsky</a></p>
                 <p>Discord: Smirnovsk#0532</p>
             </section>
 
-            <section>
-                <h2>About me</h2>
+            <section id="about">
+                <h2>About me:</h2>
                 <p>I started my career as a dentist.
                     Two years ago I decided to switch to work in IT. Started with online courses, continued learning on my own. My first job was as a coder in a small WEB-studio dealing with advertising.
                     
@@ -61,8 +63,8 @@
                     Striving to achieve your goals.</p>
             </section>
 
-            <section>
-                <h2>Skills</h2>
+            <section id="skills">
+                <h2>Skills:</h2>
                 <ul>
                     <li>HTML</li>
                     <li>CSS (BEM, SCSS)</li>
@@ -75,55 +77,57 @@
                 </ul>
             </section>
 
-            <section>
-                <h2>Code</h2>
-                <xmp>
-                    import React from 'react';
+            <section id="code">
+                <h2>Code:</h2>
+                <pre>
+                    <code>
+                        import React from 'react';
 
-                    import './ExpensesFilter.css';
+                        import './ExpensesFilter.css';
 
-                    const ExpensesFilter = (props) => {
-                        const dropdownChangeHandler = (event) => {
-                            props.oncChangeFilter(event.target.value);
+                        const ExpensesFilter = (props) =&gt; {
+                            const dropdownChangeHandler = (event) =&gt; {
+                                props.oncChangeFilter(event.target.value);
+                            };
+                        return (
+                            &lt;div className='expenses-filter'&gt;
+                            &lt;div className='expenses-filter__control'&gt;
+                                &lt;label&gt;Filter by year&lt;/label&gt;
+                                &lt;select value={props.selected} onChange={dropdownChangeHandler}&gt;
+                                &lt;option value='2022'&gt;2022&lt;/option&gt;
+                                &lt;option value='2021'&gt;2021&lt;/option&gt;
+                                &lt;option value='2020'&gt;2020&lt;/option&gt;
+                                &lt;option value='2019'&gt;2019&lt;/option&gt;
+                                &lt;/select&gt;
+                            &lt;/div&gt;
+                            &lt;/div&gt;
+                        );
                         };
-                    return (
-                        <div className='expenses-filter'>
-                        <div className='expenses-filter__control'>
-                            <label>Filter by year</label>
-                            <select value={props.selected} onChange={dropdownChangeHandler}>
-                            <option value='2022'>2022</option>
-                            <option value='2021'>2021</option>
-                            <option value='2020'>2020</option>
-                            <option value='2019'>2019</option>
-                            </select>
-                        </div>
-                        </div>
-                    );
-                    };
 
-                    export default ExpensesFilter;
-                </xmp>
+                        export default ExpensesFilter;
+                    </code>
+                </pre>
             </section>
 
-            <section>
+            <section id="experience">
                 <h2>Work Experience:</h2>
                 <p>Web studio "Stratosphere". September 2021 - March 2022.</p>
             </section>
 
-            <section>
-                <h2>Education</h2>
+            <section id="education">
+                <h2>Education:</h2>
                 <ul>
                     <li>Crimean State Medical University: 2007-2015.</li>
-                    <li>Layout courses "HTML-Academy" (completed)
-                        <a href="https://smirnovsky.github.io/DeviceWebLayout/">Layout. Online shop For Photographers,</a>
-                        <a href="https://smirnovsky.github.io/testForModesto/">Layout. Online flower store</a></li>
-                    <li>React - The Complete Guide by Maximilian Schwarzmüller (in progress)
-                        JS/FE Pre-School 2022Q4 (in progress)</li>
+                    <li>Layout courses "HTML-Academy" (completed)</li>
+                    <li><a href="https://smirnovsky.github.io/DeviceWebLayout/">Layout. Online shop For Photographers,</a></li>
+                    <li><a href="https://smirnovsky.github.io/testForModesto/">Layout. Online flower store</a></li>
+                    <li>React - The Complete Guide by Maximilian Schwarzmüller (in progress)</li>
+                    <li>JS/FE Pre-School 2022Q4 (in progress)</li>
                 </ul>
             </section>
 
-            <section>
-                <h2>Languages</h2>
+            <section id="languages">
+                <h2>Languages:</h2>
                 <ul>
                     <li>Russian: Native,</li>
                     <li>Ukrainian: C2,</li>
